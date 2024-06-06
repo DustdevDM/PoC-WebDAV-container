@@ -1,14 +1,14 @@
-# Proof of concept of WebDAV-Containerization
+# Proof of concept for WebDAV-Containerization
 
-This repo is a PoC for the combination of the WebDAV Protokoll and an Angular Development Server inside of a dockerized environment.
+This repo is a PoC for the combination of the WebDAV Protokoll and an Angular Development Server inside of an dockerized environment.
 
-⚠️Do not use this in public accessible environment as Arbitrary code execution attacks are possible in this environment
+⚠️Do not use this in public accessible environment as **arbitrary code execution** attacks are possible in this environment
 
 ## What is this for?
 
-This PoC is supposed to show how WebDAV using nginx can be provided to host the editable source code of an angular application while a `ng serve` is running in the background to rerender all changes made over WebDAV
+This PoC is supposed to proof how WebDAV (using nginx) can be provided to host editable source code of an angular application, while a `ng serve` Angular development server is running in the background to rerender all changes made over WebDAV
 
-## How do i start this?
+## Getting startet
 
 1. Build the docker image
 
